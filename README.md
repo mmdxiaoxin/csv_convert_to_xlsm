@@ -74,6 +74,8 @@
 5. 保存文件
 6. 运行宏即可
 
+![VAB图解](./README.assets/VAB图解.png)
+
 运行结果：
 
 ![自动导入结果](./README.assets/自动导入结果.png)

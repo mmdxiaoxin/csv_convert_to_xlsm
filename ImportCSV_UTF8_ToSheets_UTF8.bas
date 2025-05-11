@@ -61,9 +61,9 @@ Sub FormatTable(ws As Worksheet)
         .Borders(xlEdgeTop).LineStyle = xlContinuous
         .Borders(xlEdgeTop).Weight = xlMedium
         
-        ' 表头下边框
+        ' 表头下边框（使用细线）
         .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).LineStyle = xlContinuous
-        .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).Weight = xlMedium
+        .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).Weight = xlThin
         
         ' 下边框
         .Borders(xlEdgeBottom).LineStyle = xlContinuous

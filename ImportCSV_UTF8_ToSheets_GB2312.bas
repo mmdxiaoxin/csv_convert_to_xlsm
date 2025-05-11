@@ -59,15 +59,15 @@ Sub FormatTable(ws As Worksheet)
     With tableRange
         ' 上边框
         .Borders(xlEdgeTop).LineStyle = xlContinuous
-        .Borders(xlEdgeTop).Weight = xlMedium
+        .Borders(xlEdgeTop).Weight = xlThick
         
         ' 表头下边框（使用细线）
         .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).LineStyle = xlContinuous
-        .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).Weight = xlThin
+        .Range(.Cells(1, 1), .Cells(1, lastCol)).Borders(xlEdgeBottom).Weight = xlMedium
         
         ' 下边框
         .Borders(xlEdgeBottom).LineStyle = xlContinuous
-        .Borders(xlEdgeBottom).Weight = xlMedium
+        .Borders(xlEdgeBottom).Weight = xlThick
     End With
     
     ' 设置字体

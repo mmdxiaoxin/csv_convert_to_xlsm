@@ -1,0 +1,8 @@
+字段名,数据类型,约束条件,索引,说明
+id,int,PRIMARY KEY,PRIMARY KEY,主键
+gender,tinyint,NOT NULL DEFAULT 0,-,性别
+avatar,varchar(500),NULL,-,头像
+name,varchar(50),NULL,-,姓名
+phone,varchar(20),NULL,-,电话
+address,varchar(200),NULL,-,地址
+userId,int,NULL,UNIQUE,关联用户ID 
